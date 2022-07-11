@@ -1,5 +1,7 @@
-// Based on rescue dog personality types: https://nhhumane.org/adopt/meet-your-match/dogs
+const int kAnimationDuration = 500;
+const int kAnimationDelayIncrement = 100;
 
+// Based on rescue dog personality types: https://nhhumane.org/adopt/meet-your-match/dogs
 const List kProfiles = [
   {'personality': 'Couch Potato', 'profile': 'Netflix and snacks.'},
   {
@@ -16,10 +18,13 @@ const List kProfiles = [
     'profile': 'Strangers are just friends you haven\'t met yet.'
   },
   {'personality': 'Free Spirit', 'profile': 'Looking for a partner in crime.'},
-  {'personality': 'Wallflower', 'profile': 'Wallflower placeholder'},
+  {
+    'personality': 'Wallflower',
+    'profile': 'Shy at first but I\'m worth the effort!'
+  },
   {'personality': 'Busy Bee', 'profile': 'Work hard play hard!'},
   {
     'personality': 'Goofball',
-    'profile': 'Here for a good time not a long time!'
+    'profile': 'Here for a good time AND a long time!'
   },
 ];
