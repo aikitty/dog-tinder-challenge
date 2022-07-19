@@ -1,6 +1,8 @@
 const int kAnimationDuration = 500;
 const int kAnimationDelayIncrement = 100;
 
+enum Status { none, skipped, liked, disliked }
+
 // Based on rescue dog personality types: https://nhhumane.org/adopt/meet-your-match/dogs
 const List kProfiles = [
   {'personality': 'Couch Potato', 'profile': 'Netflix and snacks.'},
